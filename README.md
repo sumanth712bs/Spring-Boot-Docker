@@ -12,6 +12,6 @@ docker run -p 8080:8080 springbootdocker
 
 # To Push the docker image in docker hub
 
-docker tag <Image ID> <dockerhubusername>/<image name>:<docker tag name>
+docker tag Image_ID dockerhub_username/image_name:docker_tag_name
 
-docker push <dockerhubusername>/<image name>      
+docker push docerhub_username/image_name      
